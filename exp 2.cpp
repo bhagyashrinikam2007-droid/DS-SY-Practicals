@@ -99,7 +99,7 @@ public:
             cout << "ID: " << temp->id 
                  << " | Name: " << temp->name 
                  << " | Dept: " << temp->department 
-                 << " | Salary: $" << temp->salary << "\n";
+                 << " | Salary: " << temp->salary << "\n";
             temp = temp->next;
         }
         cout << "--------------------------------------------------------\n";
